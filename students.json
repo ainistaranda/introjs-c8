@@ -1,0 +1,18 @@
+[
+
+    {
+      "firstName": "bobby",
+      "grade": 80,
+      "adress": "1 Apple way"
+    },
+    {
+      "firstName": "jenny",
+      "grade": 90,
+      "adress": "2 Apple way"
+    },
+    {
+      "firstName": "tara",
+      "grade": 100,
+      "adress": "3 Apple way"
+    }
+  ]
