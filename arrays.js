@@ -1,13 +1,13 @@
-// const fruits = [
+const fruits = [
 
-// 'Banana',  // 0
-// 'Berry',   // 1
-// 'Apple',   // 2
-// 'Mango',   // 3 
-// 'Kiwi'     // 4
-// ]
+'Banana',  // 0
+'Berry',   // 1
+'Apple',   // 2
+'Mango',   // 3 
+'Kiwi'     // 4
+]
 
-// // console.log('My fruits are:', fruits)
+console.log('My fruits are:', fruits)
 // // console.log('The first fruit is:', fruits[0])
 // // console.log('The second fruit is:', fruits[2])
 
@@ -60,15 +60,15 @@ const arrayOfWords = sentence.split(' ')
 // console.log(arrayOfWords)
 // console.log(`There are ${arrayOfWords.length} words`)
 
-let fruits = [
+// let fruits = [
 'Banana',  // 0
 'Berry',   // 1
 'Apple',   // 2
 'Mango',   // 3 
 'Kiwi'     // 4
-]
+// ]
 
-console.log(fruits)
+// console.log(fruits)
 // fruits.push('Grapes') // adds to end 'added grapes'
 // console.log(fruits)
 // const oldFruit = fruits.pop() // removed from end 'grapes'
@@ -88,4 +88,4 @@ console.log(fruits)
 
 // console.log(fruits.indexOf('Mango'))
 
-console.log(` my fruits are: ${fruits.join(', ')}`)
+// console.log(` my fruits are: ${fruits.join(', ')}`)

@@ -25,7 +25,7 @@
 // THEN if you're done. Create a function where I can tell 
 // it any number I want to start with (instead of 10)
 
-const firstNum = 100
+const firstNum = 10
 function startWith() {
   for (let i = firstNum; i >= 1; i--) {
     console.log(i)

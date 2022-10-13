@@ -1,5 +1,5 @@
 
-const subtotal = 17.24
+const subtotal = 200
 const taxRate = 0.07
 
 function calculateSalesTax(subtotal, taxRate) {

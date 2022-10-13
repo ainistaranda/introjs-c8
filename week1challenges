@@ -1,0 +1,138 @@
+
+// 1. write a function to convert a temperature given in Fahrenheit to Celcius.
+// output: '73 deg F is 21 deg C'
+// equation : °F = °C × (9/5) + 32.
+
+// const temp = 200
+// function temperatureConvertion(f) {
+//     return ((f - 32) * (5/9)).toFixed(2)
+// }
+
+// console.log(temp + " F" + " is " + temperatureConvertion(temp) + ' deg C.')
+
+// -------------------------------------------------------
+// 2.write a function to convert USD to Japanese Yen.
+// output: '$45 is 378 yen'
+// 1 usd = 145 yen
+
+// const usd = 45
+
+// function convert(usd) {
+//     return usd * 145
+// }
+// console.log('$' + usd + ' is ' + convert(usd) + ' yen.')
+
+// -------------------------------------------------------
+
+// 3. Given a liquid in ounces, convert to pints
+// output '16 oz is 1 pint'
+// oz = 
+
+// const oz = 32
+
+// function convertOz(oz) {
+//     return oz / 16
+// }
+
+// console.log(oz + ' oz' + ' is ' + convertOz(oz) + ' pint')
+
+// -------------------------------------------------------
+
+// 4. Write a function that takes an array of students,
+//  [
+//    {first: 'Tyler', last: 'Jefferson'}
+//    {first: 'Emily', last: 'LaBelle'}
+//    {first: 'Ainis', last: 'Taranda'}
+//    {first: 'Fanessa', last: 'Hillaire'}
+// ]
+// and lists out last names.
+
+// let students = [
+//     { first: 'Tyler', last: 'Jefferson' },
+//     { first: 'Emily', last: 'LaBelle' },
+//     { first: 'Ainis', last: 'Taranda' },
+//     { first: 'Fanessa', last: 'Hillaire' },
+// ]
+
+// function findLastName(students) {
+//     for (let i = 0; i < students.length; i++) {
+//         console.log(students[i].last)
+//     }
+// }
+// findLastName(students)
+// -------------------------------------------------------
+
+// 5. write a function that takes a list of groceries as an array that takes a list of groceries as an array
+// ['milk', 'beer', 'cookies', 'crackers']
+// and takes a number, 1-4, and lists that element of the array (using human counting).
+
+// let groceryList = [
+//     'milk',
+//     'beer',
+//     'cookies',
+//     'crackers',
+// ]
+
+// function getGrocery(index) {
+//     return groceryList[index - 1]
+// }
+
+// if the input is more than items in grocery list, 
+// output 'choose a number between 1 and (number of groceries)
+
+// function getGrocery(index) {
+//     if (index > groceryList.length) {
+//         console.log('choose a number between 1 and', groceryList.length)
+//     }
+//     console.log(groceryList[index - 1])
+
+// }
+
+// getGrocery(10)
+
+// -------------------------------------------------------
+
+// 6. write a function that takes a word and a number and outputs that word number of times.
+// const numOfTimes = 5
+// const word = 'hello'
+// for(let i = 0; i < numOfTimes; i++) {
+//     console.log(word)
+// }
+
+
+// -------------------------------------------------------
+
+
+// 7. convert date format (Europe, military, American)
+// const today = '10/08/22'
+
+// function getDay(var_date) {
+//     const day = var_date[3] + var_date[4]
+//     return day
+// }
+
+// function getMonth(var_date) {
+//     return var_date[0] + var_date[1]
+// }
+
+// function getYear(var_date) {
+//     return var_date[6] + var_date[7]
+// }
+
+// function formatDateEurope(var_x) {
+//     const formated = getDay(var_x) + '/' + getMonth(var_x) + '/' + getYear(var_x)
+//     return formated
+// }
+
+// console.log(formatDateEurope(today))
+
+// -------------------------------------------------------
+
+// 7. Print all even numbers from 0 – 10
+
+function evenNumbers(numRange) {
+    for (let i = 0; i <= numRange; i += 2) {
+        console.log('The even numbers are: ', i)
+    }
+}
+evenNumbers(10)
